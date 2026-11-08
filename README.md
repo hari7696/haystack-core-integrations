@@ -1,0 +1,44 @@
+# Repository Coverage (weaviate-combined)
+
+[Full report](https://htmlpreview.github.io/?https://github.com/hari7696/haystack-core-integrations/blob/python-coverage-comment-action-data-weaviate-combined/htmlcov/index.html)
+
+| Name                                                                              |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
+|---------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
+| src/haystack\_integrations/components/retrievers/weaviate/bm25\_retriever.py      |       36 |        0 |        2 |        0 |    100% |           |
+| src/haystack\_integrations/components/retrievers/weaviate/embedding\_retriever.py |       51 |        0 |        8 |        0 |    100% |           |
+| src/haystack\_integrations/components/retrievers/weaviate/hybrid\_retriever.py    |       51 |        0 |        8 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/weaviate/\_filters.py                 |      156 |        1 |       68 |        1 |     99% |       110 |
+| src/haystack\_integrations/document\_stores/weaviate/auth.py                      |       85 |        0 |        6 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/weaviate/document\_store.py           |      666 |       41 |      214 |       16 |     93% |539, 589, 617-\>621, 842-\>852, 853, 905-907, 915-917, 1072, 1101, 1119-1120, 1135-\>1117, 1174-\>1154, 1298, 1347-1353, 1411-1416, 1484-1485, 1502-1503, 1530, 1550-\>1553, 1559-1563, 1566-1569, 1577-1582 |
+| **TOTAL**                                                                         | **1045** |   **42** |  **306** |   **17** | **95%** |           |
+
+
+## Setup coverage badge
+
+Below are examples of the badges you can use in your main branch `README` file.
+
+### Direct image
+
+[![Coverage badge](https://raw.githubusercontent.com/hari7696/haystack-core-integrations/python-coverage-comment-action-data-weaviate-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/hari7696/haystack-core-integrations/blob/python-coverage-comment-action-data-weaviate-combined/htmlcov/index.html)
+
+This is the one to use if your repository is private or if you don't want to customize anything.
+
+### [Shields.io](https://shields.io) Json Endpoint
+
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/hari7696/haystack-core-integrations/python-coverage-comment-action-data-weaviate-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/hari7696/haystack-core-integrations/blob/python-coverage-comment-action-data-weaviate-combined/htmlcov/index.html)
+
+Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
+It won't work with private repositories. It won't be refreshed more than once per five minutes.
+
+### [Shields.io](https://shields.io) Dynamic Badge
+
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhari7696%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-weaviate-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/hari7696/haystack-core-integrations/blob/python-coverage-comment-action-data-weaviate-combined/htmlcov/index.html)
+
+This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
+
+## What is that?
+
+This branch is part of the
+[python-coverage-comment-action](https://github.com/marketplace/actions/python-coverage-comment)
+GitHub Action. All the files in this branch are automatically generated and may be
+overwritten at any moment.
